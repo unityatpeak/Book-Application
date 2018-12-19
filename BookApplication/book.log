@@ -1,0 +1,23 @@
+2018-12-18 01:44:26,521 INFO [Log4JPropertyFileDemo] - do_something are:1 1.2
+2018-12-18 01:44:26,521 ERROR [Log4JPropertyFileDemo] - Value of x is null
+2018-12-18 02:42:41,593 ERROR [root] - Insertion failed 
+2018-12-18 02:42:41,593 ERROR [root] - exception occured 
+com.book.exception.BookException: Inserting book details failed 
+	at com.book.dao.BookDaoImpl.addBook(BookDaoImpl.java:59)
+	at com.book.service.BookServiceImpl.addBook(BookServiceImpl.java:23)
+	at com.book.pl.BookMain.main(BookMain.java:72)
+2018-12-18 02:44:23,370 INFO [root] - book details added successfully:
+2018-12-18 02:45:52,986 INFO [root] - book details added successfully:
+2018-12-18 02:55:16,813 INFO [root] - book details added successfully:
+2018-12-18 02:57:10,419 INFO [root] - book details added successfully:
+2018-12-18 03:03:19,685 INFO [root] - book details added successfully:
+2018-12-18 03:05:56,885 INFO [root] - book details added successfully:
+2018-12-18 04:09:51,985 INFO [root] - book details added successfully:
+2018-12-18 04:09:52,032 INFO [root] - book details added successfully:
+2018-12-18 04:24:31,180 INFO [root] - book details added successfully:
+2018-12-18 04:39:53,213 INFO [root] - book details added successfully:
+2018-12-18 04:51:35,212 INFO [root] - book details added successfully:
+2018-12-18 04:51:35,274 INFO [root] - book details added successfully:
+2018-12-18 04:56:00,490 INFO [root] - book details added successfully:
+2018-12-18 04:56:42,719 INFO [root] - book details added successfully:
+2018-12-18 04:56:42,860 INFO [root] - book details added successfully:

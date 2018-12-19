@@ -1,0 +1,20 @@
+2018-12-17 23:40:38,525 ERROR [root] - Insertion failed 
+2018-12-17 23:40:38,525 ERROR [root] - exception occured 
+com.book.exception.BookException: Inserting donor details failed 
+	at com.book.dao.BookDaoImpl.addBook(BookDaoImpl.java:59)
+	at com.book.service.BookServiceImpl.addBook(BookServiceImpl.java:23)
+	at com.book.pl.BookMain.main(BookMain.java:72)
+2018-12-17 23:45:51,900 ERROR [root] - Insertion failed 
+2018-12-17 23:45:51,915 ERROR [root] - exception occured 
+com.book.exception.BookException: Inserting donor details failed 
+	at com.book.dao.BookDaoImpl.addBook(BookDaoImpl.java:59)
+	at com.book.service.BookServiceImpl.addBook(BookServiceImpl.java:23)
+	at com.book.pl.BookMain.main(BookMain.java:72)
+2018-12-18 00:21:41,487 ERROR [root] - Insertion failed 
+2018-12-18 00:21:41,503 ERROR [root] - exception occured 
+com.book.exception.BookException: Inserting book details failed 
+	at com.book.dao.BookDaoImpl.addBook(BookDaoImpl.java:59)
+	at com.book.service.BookServiceImpl.addBook(BookServiceImpl.java:23)
+	at com.book.pl.BookMain.main(BookMain.java:72)
+2018-12-18 00:40:32,589 ERROR [root] - ORA-08002: sequence SEQ.CURRVAL is not yet defined in this session
+
